@@ -1,18 +1,24 @@
+/* 
+    Colors:
+    Yellow: #FFBE00;
+    Navy: #192B37;
+*/
+
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* temporary styles for structural html */
 
-*{
-    padding: 0.5rem; 
-    border: 1px solid rgb(240,240,240);
+body{ 
+    font-family: Catamaran, sans-serif;
+    color: #192B37;
 }
 
-body{ border:none;}
-html{border: none;}
+section{
+    border: 1px solid rgb(240,240,240);
+}
 
 /* image styles */
 
@@ -30,4 +36,85 @@ html{border: none;}
 .bg-dark {
     background-color: #192B37;
     color: white;
+}
+
+.tall-70 {min-height: 70vh;}
+.tall-80 {min-height: 80vh;}
+.tall-90 {min-height: 90vh;}
+.tall-100 {min-height: 100vh;}
+
+
+/* Typography Styles */
+
+.featured-text {color: #FFBE00;}
+.white-text {color: white;}
+
+.small-text { font-size: 1.5rem;}
+.big-text {font-size: 4rem;}
+
+.font-weight-light {font-weight: 200;}
+.font-weight-normal {font-weight: normal;}
+.font-weight-extrabold {font-weight: 800;}
+
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+h2{
+    font-weight: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+h3{
+    line-height: 1;
+}
+
+p{
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+margin-bottom: 0;
+}
+
+/* Header Banner */
+
+header{
+    background-image: url('/images/the-sleep-co-mattress.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3{
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+/* Background images */
+
+.bg-bed{
+    background-image: url('/images/the-sleep-co-bedside.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.bg-pug {
+    background-image: url('/images/the-sleep-co-pug.jpg');
+    background-position: 50% 35%;
+    background-size: cover;
+}
+.bg-pillow {
+    background-image: url('/images/the-sleep-co-yellow.jpg');
+    background-position: 50% 57%;
+}
+
+/* Icon Grid */
+
+.fas {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
