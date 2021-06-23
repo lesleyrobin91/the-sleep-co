@@ -42,11 +42,17 @@ body{
 a{
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid;
 }
 
 a:hover{
     color: #FFBE00;
+}
+
+nav{
+    text-align: center;
+    padding: 0.6rem;
+    display: block;
+    word-spacing: 1rem;
 }
 
 /* Typography Styles */
