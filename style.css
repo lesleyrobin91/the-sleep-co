@@ -146,16 +146,19 @@ footer a{
 .bg-rebecca {
     background-image: url('/images/Rebecca.jpg');
     background-position: 50% 57%;
+    border-radius: 50%;
 }
 
 .bg-tony {
     background-image: url('/images/Tony.jpg');
     background-position: 50% 57%;
+    border-radius: 100%;
 }
 
 .bg-fiona {
     background-image: url('/images/Fiona.jpg');
     background-position: 100% 50%;
+    border-radius: 100%;
 }
 
 /* Icon Grid */
