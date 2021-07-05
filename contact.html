@@ -24,30 +24,36 @@
 
 <!--this is the body, which is where all of the page content goes-->
 <body>
-    <nav class="bg-dark">
-        <a href="/index.html"> Home </a>
-        <a href="/about.html"> About </a>
-        <a href="/contact.html"> Contact </a>
-    </nav>
-    
+    <header class="grid padded text-center tall-60"> 
+        <div class="header-nav col-12">
+            <div class="col-4">
+                <a href="/index.html" class="logo"> 
+                    <h2>The Sleep Co</h2>
+                </a>
+            </div>
+            <nav class="col-8">
+                <a href="/index.html"> Home </a>
+                <a href="/about.html"> About </a>
+                <a href="/products.html"> Products </a>
+                <a href="/contact.html"> Contact </a>
+            </nav>
+        </div>
 
-    <header class="grid padded text-center tall-100"> 
         <div class="col-12-middle editable">
-            <h3 class="ont-weight-extrabold editable"> <span class="featured-text"> tell us </span> what's on your mind</h3>    
+            <h3 class="ont-weight-extrabold editable"> why <span class="featured-text"> wait </span> </h3>      
+            <h1 class="font-weight-light editable"> one step away from the perfect night sleep </h1>
         </div>
         
     </header>
 
 
     <!------------------ contact form ------------------> 
-    <section class="padded text-center bg-yellow tall-70 grid-middle">
-        <div class="col-10"> 
-            <h3 class="medium-text">Get in touch </h3>
+    <section class="padded-sm light-text bg-dark grid">
+        <div class="col-5-middle padded"> 
+            <h2 class="editable medium-text"> let's <span class="featured-text"> connect </span> </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia, dicta nesciunt inventore molestiae voluptatibus itaque. Magni numquam illo dolore earum eligendi facilis iure veritatis. Velit hic iste a quia.</p>
         </div>
-        <div class="col-10"> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque ab, nostrum et iusto vero illum minima aliquam, tempore omnis voluptas quasi, iure non nobis? Veritatis consectetur eligendi animi porro.</p>
-        </div>
-        <div class=" col-8 text-center">
+        <div class=" col-7 padded">
             <form>
    
                 <label for="_name"> Your Name </label>
@@ -56,13 +62,63 @@
                 <label for="_replyto"> Your Email </label>
                 <input type="email" name="_replyto" id="_replyto"/>
                 
-                <label for="message"> Tell us what you're curious about </label>
+                <label for="message"> Tell us what's on your mind </label>
                 <textarea name="message" id="message"></textarea>
                 
                 <button type="submit" class="button"> SUBMIT </button>
             </form>
         </div>
+        
     </section>
+
+
+    <!------------------ Gallery section------------------>
+    <section class="grid-center padded">
+            <div class="col-4 bg-image bg-pug tall-50"> 
+                <!--background image--> 
+            </div>
+            <div class="col-6-middle padded"> 
+                <h2 class="editable medium-text"> a catchy <span class="featured-text"> heading </span> </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia, dicta nesciunt inventore molestiae voluptatibus itaque. Magni numquam illo dolore earum eligendi facilis iure veritatis. Velit hic iste a quia.</p>
+            </div>
+    </section>
+
+
+    <!------------------ Icon grid sustainability ------------------>
+   <section class="grid-center padded bg-lightblue">
+        <div class="col-12 padded-sm text-center">
+            <h2 class="medium-text"> need help deciding? </h2>
+        </div>
+        <div class="col-3 padded-sm">
+            <i class="fas fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum atque facilis odio veniam quidem, ea debitis hic molestias eveniet, nisi exercitationem quasi earum, repellendus accusantium esse illo facere corrupti dolores.</p>
+        </div>
+        <div class="col-3 padded-sm">
+            <i class="fas fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum atque facilis odio veniam quidem, ea debitis hic molestias eveniet, nisi exercitationem quasi earum, repellendus accusantium esse illo facere corrupti dolores.</p>
+        </div>
+        <div class="col-3 padded-sm">
+            <i class="fas fa-cloud"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum atque facilis odio veniam quidem, ea debitis hic molestias eveniet, nisi exercitationem quasi earum, repellendus accusantium esse illo facere corrupti dolores.</p>
+        </div>
+        
+    </section>
+
+
+    <!------------------ testimonial section ------------------>
+    <section class="grid padded">
+        <div class="col-1 text-right">
+            <span class="quote-icon">“</span>
+        </div>
+        <div class="col-10 text-center">
+            <p class="medium-text font-weight-light">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family </p>
+            <p class="subtitle">- A very happy customer</p>
+        </div>
+        <div class="col-1">
+            <span class="quote-icon">”</span>
+        </div>
+    </section>
+
 
     <!------------------ footer ------------------>
     <footer class="grid-spaceBetween padded bg-dark">

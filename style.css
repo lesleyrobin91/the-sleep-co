@@ -18,6 +18,10 @@
     min-height: 10rem;
 }
 
+.landscape{padding-bottom: 65%;}
+.portrait{padding-bottom: 125%;}
+.square{padding-bottom: 100%;}
+
 /* Universal styles + utility classes */
 
 body{ 
@@ -37,6 +41,8 @@ body{
 .bg-yellow{
     background-color: #FFBE00;
 }
+
+.bg-lightblue{background-color: #E3ECF2;}
 
 .tall-50 {min-height: 50vh;}
 .tall-70 {min-height: 70vh;}
@@ -88,6 +94,11 @@ nav{
 .text-center {text-align: center;}
 .text-right {text-align: right;}
 .text-left {text-align: left;}
+
+h2, h3, h4, h5, h6{
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
 
 h2{
     font-weight: 2.5rem;
@@ -180,7 +191,7 @@ form input, form textarea{
     outline: none;
     font-family: inherit;
     font-size: 0.9rem;
-    background-color: #FFBE00;
+    background-color: white;
   }
 
 form input:focus, form textarea:focus {
@@ -190,12 +201,12 @@ form input:focus, form textarea:focus {
 form label{
     padding-top: 1rem;
     display: inline-block;
-    color: #192B37;
+    color: white;
     font-weight: bold;
   }
 
 form button{
-    border: 2px solid #192B37;
+    border: 2px solid #FFBE00;
     background-color: #FFBE00;
     color: #192B37;
     font-weight: bold;
