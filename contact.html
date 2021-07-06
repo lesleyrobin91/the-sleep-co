@@ -8,6 +8,9 @@
         Contact The Sleep Co
     </title>
 
+    <!-- Viewport meta for responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- This is our Grid stylesheet-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
@@ -24,14 +27,14 @@
 
 <!--this is the body, which is where all of the page content goes-->
 <body>
-    <header class="grid padded text-center tall-60"> 
-        <div class="header-nav col-12">
-            <div class="col-4">
-                <a href="/index.html" class="logo"> 
-                    <h2>The Sleep Co</h2>
+    <header class="grid text-center tall-60"> 
+        <div class="header-nav col-12-top grid">
+            <div class="col-5_sm-12-middle sm-padded-b-0">
+                <a href="/index.html" class="logo">  
+                    <h2 class="medium-text">The Sleep Co</h2>
                 </a>
             </div>
-            <nav class="col-8">
+            <nav class="col-7_sm-12 text-right sm-text-center">
                 <a href="/index.html"> Home </a>
                 <a href="/about.html"> About </a>
                 <a href="/products.html"> Products </a>
@@ -39,7 +42,7 @@
             </nav>
         </div>
 
-        <div class="col-12-middle editable">
+        <div class="col-12 editable">
             <h3 class="ont-weight-extrabold editable"> why <span class="featured-text"> wait </span> </h3>      
             <h1 class="font-weight-light editable"> one step away from the perfect night sleep </h1>
         </div>
@@ -63,7 +66,7 @@
                 <input type="email" name="_replyto" id="_replyto"/>
                 
                 <label for="message"> Tell us what's on your mind </label>
-                <textarea name="message" id="message"></textarea>
+                <textarea name="message" id="message" rows=4></textarea>
                 
                 <button type="submit" class="button"> SUBMIT </button>
             </form>
