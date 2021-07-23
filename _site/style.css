@@ -259,7 +259,20 @@ footer a{
 
 /* Image Gallery */
 
-.gallery [class*="col-"]  { padding: 5%;}
+.gallery [class*="col-"]  { padding: 0.5%;}
+
+.button{
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+}
+
+/* background of gallery when active */
+.lg-backdrop { background-color: rgb(60,60,60);}
+.lg-backdrop.in {opacity: 0.95;}
+
+.lg-sub-html {
+    background-color: rgb(60,60,60,0.95);
+}
 
 /* Contact Form */
 
