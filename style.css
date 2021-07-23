@@ -259,7 +259,7 @@ footer a{
 
 /* Image Gallery */
 
-.gallery [*="col-"]  { padding: 5%;}
+.gallery [class*="col-"]  { padding: 5%;}
 
 /* Contact Form */
 
@@ -327,8 +327,8 @@ form button{
 }
 
 .hamburger-button i{
-    font-sizee: 2.2rem;
-    marrgin-bottom: 0;
+    font-size: 2.2rem;
+    margin-bottom: 0;
 }
 
 
