@@ -69,19 +69,21 @@
 
 
 /* image styles */
-
 .bg-image {
     background-color: grey;
     background-image: url('/images/the-sleep-co-bedside.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 10rem;
+    background-position: center;
 }
 
-.landscape{padding-bottom: 65%;}
-.portrait{padding-bottom: 125%;}
-.portrait-tall {padding-bottom: 175%;}
-.square{padding-bottom: 100%;}
+/* Aspect ratio utility classes */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
@@ -254,6 +256,10 @@ footer a{
     background-position: 100% 50%;
     border-radius: 50%;
 }
+
+/* Image Gallery */
+
+.gallery [*="col-"]  { padding: 5%;}
 
 /* Contact Form */
 
