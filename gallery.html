@@ -23,7 +23,7 @@ gallery:
 
 
     <!------------------header banner------------------>
-    <header class="grid text-center tall-60 md-tall-80"> 
+    <header class="grid text-center tall-60"> 
        
         {% include header-nav.html %}
 
@@ -37,7 +37,7 @@ gallery:
 
     <!-- Gallery -->
     <section class="padded">
-        <div class="gallery grid">
+        <div class="gallery grid editable">
 
             {% for item in page.gallery %}
             <div class="{{item.column-size}}"> 
